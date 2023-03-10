@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
+
     }
 
     private fun setupBottonNav(){
@@ -90,6 +91,12 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
+
+        /*mBinding.bottomNav.setOnNavigationItemSelectedListener{
+            when(it.itemId){
+                R.id.action_home -> (homeFragment as HomeAux).goToTop()
+            }
+        }*/
 
     }
 
